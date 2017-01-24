@@ -312,9 +312,7 @@ public class CommandParser {
             }
 
             msg = msg.substring(msgIndex + 1);
-            if (msg.startsWith("!")) {
-                msg = msg.toLowerCase();
-            }
+            
 
             // Handle the message
             handleCommand(username, isMod, isSub, msg);
